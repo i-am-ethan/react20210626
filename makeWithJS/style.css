@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body main {
+  margin: 10px;
+}
+
+body main .area_form,
+body main .area_incomplete,
+body main .area_complete {
+  width: 90%;
+  min-width: 500px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+body main .area_form {
+  background-color: aqua;
+}
+
+body main .area_form input[type="text"] {
+  width: 200px;
+  margin-left: 10px;
+  height: 40px;
+}
+
+body main .area_form button {
+  width: 60px;
+  height: 40px;
+  margin: 10px;
+}
+
+body main .area_incomplete {
+  background-color: aquamarine;
+  height: 300px;
+}
+
+body main .area_incomplete h1 {
+  text-align: center;
+}
+
+body main .area_incomplete .incomplete_todos {
+  padding: 10px 0px 10px 40px;
+}
+
+body main .area_complete {
+  background-color: bisque;
+}
+
+body main .area_complete h1 {
+  text-align: center;
+}
+
+body main .area_complete .complete_todos {
+  padding: 10px 0px 10px 40px;
+}
+/*# sourceMappingURL=style.css.map */

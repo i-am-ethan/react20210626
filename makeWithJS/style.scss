@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    main {
+        margin: 10px;
+
+        .area_form,
+        .area_incomplete,
+        .area_complete {
+            width: 90%;
+            min-width: 500px;
+            margin: 0 auto;
+            border-radius: 10px;
+        }
+
+        .area_form {
+            background-color: aqua;
+
+
+
+            input[type="text"] {
+                width: 200px;
+                margin-left: 10px;
+                height: 40px;
+            }
+
+            button {
+                width: 60px;
+                height: 40px;
+                margin: 10px;
+            }
+
+
+
+
+        }
+
+
+
+        .area_incomplete {
+            background-color: aquamarine;
+            height: 300px;
+
+            h1 {
+                text-align: center;
+            }
+
+            .incomplete_todos {
+                padding: 10px 0px 10px 40px;
+            }
+        }
+
+        .area_complete {
+            background-color: bisque;
+
+            h1 {
+                text-align: center;
+            }
+
+            .complete_todos {
+                padding: 10px 0px 10px 40px;
+            }
+        }
+    }
+}
